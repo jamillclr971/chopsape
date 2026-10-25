@@ -1,0 +1,12 @@
+{
+  "name": "Chop'Sape",
+  "short_name": "Chop'Sape",
+  "description": "La tenue du jour selon la météo et votre garde-robe.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#E9ECF1",
+  "theme_color": "#2B45F5",
+  "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}]
+}
