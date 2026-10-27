@@ -1,4 +1,4 @@
-const C = 'chopsape-v1';
+const C = 'chopsape-v2';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icon.svg'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(C).then(c => c.addAll(SHELL)));
